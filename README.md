@@ -1,3 +1,3 @@
 # Pipelines
 
-#Agregamos prueba de email.
+#Prueba del pipeline con email
