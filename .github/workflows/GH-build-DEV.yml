@@ -30,12 +30,11 @@ jobs:
     - name: Send email
       uses: dawidd6/action-send-mail@v6
       with:
-              server_address: ${{ secrets.SMTP_HOST}}
-              server_port: ${{ secrets.SMTP_PORT}}
-              username: ${{ secrets.SMTP_USER }}
-              password: ${{ secrets.SMTP_PASS }}
-              subject: "Pipeline de PRUEBA - GH-build-DEV"
-              to: muniz.gonzalo1@gmail.com
-              from: ${{ secrets.SMTP_USER }}
-              content_type: text/plain
-              body: "El pipeline de CI se ejecuto correctamente!!"
+        server_address: ${{ secrets.SMTP_HOST}}
+        server_port: ${{ secrets.SMTP_PORT}}
+        username: ${{ secrets.SMTP_USER }}
+        password: ${{ secrets.SMTP_PASS }}
+        subject: "Pipeline de PRUEBA - GH-build-DEV"
+        to: muniz.gonzalo1@gmail.com
+        from: ${{ secrets.SMTP_USER }}
+        body: "El pipeline de CI se ejecuto correctamente!!"
