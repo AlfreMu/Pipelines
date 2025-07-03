@@ -1,3 +1,3 @@
 # Pipelines
 
-#Prueba final del pipeline con email.
+#Prueba del pipeline con email.
