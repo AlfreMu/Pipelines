@@ -28,8 +28,8 @@ jobs:
     - name: Read Secrets
       run: echo ${{ secrets.USUARIO }}
     - name: Send email
-    - uses: dawidd6/action-send-mail@v6
-    - with:
+      uses: dawidd6/action-send-mail@v6
+      with:
               server_address: ${{ secrets.SMTP_HOST}}
               server_port: ${{ secrets.SMTP_PORT}}
               username: ${{ secrets.SMTP_USER }}
